@@ -1,8 +1,8 @@
 .TextButton {
-     border: 1px solid rebeccapurple; /* placeholder */
-    box-shadow: 3px 3px 0 0 rebeccapurple; /* placeholder */
-    background-color: white;
-    color: rebeccapurple; /* placeholder */
+     border: 1px solid var(--dark-green-color); /* placeholder */
+    box-shadow: 3px 3px 0 0 var(--dark-green-color); /* placeholder */
+    background-color: var(--lighter-yellow-color);
+    color: var(--dark-green-color); /* placeholder */
     padding: 1rem 4rem;
     border-radius: 3rem;
     font-weight: bold;
@@ -19,5 +19,6 @@
 
   .TextButton:hover {
     cursor: pointer;
-    color: green; /* placeholder */
+    color: white; /* placeholder */
+    background-color: var(--dark-green-color);
   }

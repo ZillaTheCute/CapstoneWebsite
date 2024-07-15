@@ -1,0 +1,21 @@
+/* beginning of ourCacaoSection section */
+
+.ourCacaoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    margin: 15rem 0;
+}
+
+.ourCacaoMainText {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.ourCacaoSubText {
+    font-size: 3rem;
+    font-style: italic;
+    color: gray;
+}

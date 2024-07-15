@@ -1,5 +1,6 @@
 .navBar {
-    background-color: hsla(34, 78%, 91%, 0); /* placeholder */
+    /* background-color: hsla(34, 78%, 91%, 0); placeholder */
+    background-color: var(--lighter-yellow-color);
     font-weight: bold;
 }
 

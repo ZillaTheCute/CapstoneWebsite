@@ -1,0 +1,17 @@
+.whoWeAreTextContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    row-gap: 1rem;
+    width: 30vw;
+    padding-left: 5rem;
+}
+
+.whoWeAreMainText {
+    font-weight: bold;
+    font-size: 8rem;
+}
+
+.whoWeAreSubText {
+    font-size: 3rem;
+}

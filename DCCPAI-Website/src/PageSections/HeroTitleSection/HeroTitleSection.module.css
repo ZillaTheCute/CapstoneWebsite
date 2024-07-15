@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 130px); /*130px is the height of the nav bar section*/
+    background-color: var(--lighter-yellow-color);
 }
 
 .heroImageContainer {
@@ -20,16 +21,18 @@
 .heroText, .heroSubText{
     margin-left: 16rem;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: bold;
 }
 
 .heroText {
     font-size: var(--main-hero-text-size);
-    font-weight: bold;
 }
 
 .heroSubText {
     font-size:  var(--sub-hero-text-size);;
     margin-top: 2rem;
+    
 }
 
 .heroImageSection .shopButton {
