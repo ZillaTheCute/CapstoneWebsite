@@ -11,7 +11,7 @@ function NavBar() {
                 </div>
                 <div className={styles.navBarContent}>
                     <div className={`${styles.navBarContentElement} ${styles.navBarShop}`}>
-                    <Link to="/" className="Link"><p>Shop</p></Link>
+                    <Link to="/Shop" className="Link"><p>Shop</p></Link>
                     </div>
                     <div className={`${styles.navBarContentElement} ${styles.navBarFind}`}>
                     <Link to="/" className="Link"><p>Find Us</p></Link>

@@ -12,7 +12,7 @@ function OurCacaoSection() {
         Distinctly Davao
       </div>
       <div className={styles.buttonContainer}>
-      <Link to="/shop" className="Link">
+      <Link to="/Shop" className="Link">
       <TextButton buttonText="Shop!" className={styles.buttonContainer}></TextButton>
       </Link>
       </div>

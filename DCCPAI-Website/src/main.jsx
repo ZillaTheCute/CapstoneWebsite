@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import LandingPage from './Pages/LandingPage.jsx'
 import './index.css';
+import ShopPage from './Pages/ShopPage.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <LandingPage />,
+  },
+  {
+    path: '/Shop',
+    element: <ShopPage />,
   },
 ]);
 
