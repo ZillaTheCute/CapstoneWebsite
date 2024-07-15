@@ -4,6 +4,8 @@
     align-items: center;
     height: calc(100vh - 130px); /*130px is the height of the nav bar section*/
     background-color: var(--lighter-yellow-color);
+    /* background-image: url("D:\School\Information Systems\Final Capstone Project Website\DCCPAI-Website\src\Assets\Pictures\flat-adventure-background\5803426.jpg");
+    background-size: cover; */
 }
 
 .heroImageContainer {
@@ -15,8 +17,8 @@
     margin-left: 3vw;
     margin-right: 3vw;
     border-radius: 8rem;
-    background-image: url("https://images.unsplash.com/photo-1552404767-1dc7187feef6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
+    /* background-image: url("https://images.unsplash.com/photo-1552404767-1dc7187feef6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+} 
 
 .heroText, .heroSubText{
     margin-left: 16rem;
