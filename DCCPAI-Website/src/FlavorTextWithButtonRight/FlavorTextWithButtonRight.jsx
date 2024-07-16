@@ -2,7 +2,7 @@ import styles from '.././FlavorTextWithButtonRight/FlavorTextWithButtonRight.mod
 import TextButton from '../TextButton/TextButton.jsx';
 import { Link } from "react-router-dom";
 
-function FlavorTextWithButton() {
+function FlavorTextWithButtonRight() {
     return (
         <div className={styles.whoWeAreTextContainer}>
             <div className={`${styles.whoWeAreMainText} ${styles.whoWeAreText}`}>Who we are</div>
@@ -18,4 +18,4 @@ function FlavorTextWithButton() {
     );
 }
 
-export default FlavorTextWithButton;
+export default FlavorTextWithButtonRight;
