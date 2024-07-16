@@ -36,6 +36,7 @@
     row-gap: 1rem;
     font-size: 3rem;
     text-align: center;
+    line-height: 0.8;  /* placeholder */
 }
 
 .productDescription {

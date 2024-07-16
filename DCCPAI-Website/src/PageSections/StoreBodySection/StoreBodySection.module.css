@@ -1,5 +1,79 @@
+.shopBodyContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 16rem;
+}
+
+.shopBodyLeft h1 {
+    font-size: 4rem;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+.shopBodyLeft h2 {
+    font-size: 2.5rem;
+    margin: 0 0 0 0;
+    padding: 1rem 0 0 0;
+}
+
+.shopBodyLeft ul {
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+    list-style: none;
+    padding: 0;
+}
+
+.shopBodyLeft li {
+    padding-top: 1rem;
+}
+
+.shopBodyRight {
+    padding-top: 5rem; /*Based on the values of h1*/
+}
+
 .shopBodyGrid {
     display: grid;
-    grid-template-columns: repeat(3, auto); 
-    grid-template-rows: repeat(3, auto);    
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, auto);
+    gap: 6rem;    
 }
+
+.pageList {
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0;
+}
+
+.pageList h2 {
+    
+}
+
+.pageList div {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0 2rem;
+    border-radius: 100%;
+}
+
+/* Hover States */
+
+.shopBodyLeft li, 
+.shopBodyLeft h2,
+.pageList div  {
+    transition: color 0.3s ease-in-out,
+                background-color 0.3s ease-in-out;
+  }
+  
+    li:hover, .shopBodyLeft h2:hover {
+      cursor: pointer;
+      color: var(--dark-green-color); /* placeholder */
+    }
+
+    .pageList div:hover {
+        cursor: pointer;
+        background-color: var(--dark-green-color);
+        color: white;
+    }
+
