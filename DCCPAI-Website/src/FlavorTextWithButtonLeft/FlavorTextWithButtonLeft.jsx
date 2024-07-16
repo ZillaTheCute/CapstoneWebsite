@@ -1,5 +1,5 @@
-import styles from './FlavorTextWithButton.module.css';
-import TextButton from '../../../TextButton/TextButton.jsx';
+import styles from '.././FlavorTextWithButtonLeft/FlavorTextWithButtonLeft.module.css';
+import TextButton from '../TextButton/TextButton.jsx';
 import { Link } from "react-router-dom";
 
 function FlavorTextWithButton() {

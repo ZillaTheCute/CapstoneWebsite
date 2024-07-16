@@ -1,12 +1,12 @@
 import styles from './WhoWeAreSection.module.css'
-import FlavorTextWithButton from './FlavorTextWithButton/FlavorTextWithButton.jsx'
+import FlavorTextWithButtonRight from '../../FlavorTextWithButtonRight/FlavorTextWithButtonRight.jsx'
 import WhoWeAreImage from './WhoWeAreImage/WhoWeAreImage.jsx'
 
 function WhoWeAreSection() {
     return(
         <div className={styles.whoWeAreSection}>
             <WhoWeAreImage />
-            <FlavorTextWithButton />
+            <FlavorTextWithButtonRight />
         </div>
     );
 }

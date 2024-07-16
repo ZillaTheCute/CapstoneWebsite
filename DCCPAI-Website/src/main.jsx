@@ -4,16 +4,23 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import LandingPage from './Pages/LandingPage.jsx'
 import './index.css';
 import ShopPage from './Pages/ShopPage.jsx';
+import UnderConstructionPage from './Pages/UnderConstructionPage/UnderConstructionPage.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <LandingPage />,
+    errorElement: <UnderConstructionPage />,
   },
   {
     path: '/Shop',
     element: <ShopPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/PageNotFound',
+    element: <UnderConstructionPage />,
   },
 ]);
 

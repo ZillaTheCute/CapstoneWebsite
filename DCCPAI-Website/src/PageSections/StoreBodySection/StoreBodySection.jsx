@@ -4,8 +4,8 @@ import ProductCard from '../../ProductCard/ProductCard.jsx'
 function ShopBodySection() {
     return(
     <>
-    <div className={styles.shopBodyContainer}>
-        <div className={styles.shopBodyLeft}>
+    <div className={styles.storeBodyContainer}>
+        <div className={styles.storeBodyLeft}>
         <h1>Categories</h1>
         <h2>All Products</h2>
         <h2>Cacao</h2>
@@ -24,8 +24,8 @@ function ShopBodySection() {
 
         </div>
         
-        <div className={styles.shopBodyRight}>
-        <div className={styles.shopBodyGrid}>
+        <div className={styles.storeBodyRight}>
+        <div className={styles.storeBodyGrid}>
             <ProductCard />
             <ProductCard />
             <ProductCard />
@@ -37,10 +37,10 @@ function ShopBodySection() {
             <ProductCard />
         </div>
         <div className={styles.pageList}>
-                <div><h2>1</h2></div>
-                <div><h2>2</h2></div>
-                <div><h2>3</h2></div>
-                <div><h2>4</h2></div>
+                 <div>1</div> {/*find a way to make it show the highlighted page */}
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
             </div>
         </div>
 

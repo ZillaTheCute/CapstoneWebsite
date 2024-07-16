@@ -1,37 +1,38 @@
-.shopBodyContainer {
+.storeBodyContainer {
     display: flex;
     justify-content: center;
     column-gap: 16rem;
+    min-height: 100vh;
 }
 
-.shopBodyLeft h1 {
+.storeBodyLeft h1 {
     font-size: 4rem;
     margin: 0 0 1rem 0;
     padding: 0;
 }
 
-.shopBodyLeft h2 {
+.storeBodyLeft h2 {
     font-size: 2.5rem;
     margin: 0 0 0 0;
     padding: 1rem 0 0 0;
 }
 
-.shopBodyLeft ul {
+.storeBodyLeft ul {
     font-size: 2rem;
     margin: 0 0 2rem 0;
     list-style: none;
     padding: 0;
 }
 
-.shopBodyLeft li {
+.storeBodyLeft li {
     padding-top: 1rem;
 }
 
-.shopBodyRight {
+.storeBodyRight {
     padding-top: 5rem; /*Based on the values of h1*/
 }
 
-.shopBodyGrid {
+.storeBodyGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(3, auto);
@@ -44,36 +45,34 @@
     margin: 8rem 0;
 }
 
-.pageList h2 {
-    
-}
-
-.pageList div {
+.pageList div {  /*find a way to make it show the highlighted page */
     display: flex;
+    font-weight: bold;
     justify-content: center;
+    align-items: center;
     font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
     padding: 0;
-    margin: 0 2rem;
-    border-radius: 100%;
+    margin: 0 1rem;
+    border: solid 2px black;
+    border-radius: 50%;
 }
 
 /* Hover States */
 
-.shopBodyLeft li, 
-.shopBodyLeft h2,
-.pageList div  {
+.storeBodyLeft li, 
+.storeBodyLeft h2  {
     transition: color 0.3s ease-in-out,
                 background-color 0.3s ease-in-out;
   }
   
-    li:hover, .shopBodyLeft h2:hover {
+    li:hover, .storeBodyLeft h2:hover {
       cursor: pointer;
       color: var(--dark-green-color); /* placeholder */
     }
 
     .pageList div:hover {
         cursor: pointer;
-        background-color: var(--dark-green-color);
-        color: white;
     }
 
