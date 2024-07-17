@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import LandingPage from './Pages/LandingPage.jsx'
 import './index.css';
-import ShopPage from './Pages/ShopPage.jsx';
-import UnderConstructionPage from './Pages/UnderConstructionPage/UnderConstructionPage.jsx';
 
+// Pages
+import AboutPage from './Pages/AboutPage.jsx';
+import ShopPage from './Pages/ShopPage.jsx';
+import LandingPage from './Pages/LandingPage.jsx'
+import UnderConstructionPage from './Pages/UnderConstructionPage/UnderConstructionPage.jsx';
+import FindUsPage from './Pages/FindUsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,16 @@ const router = createBrowserRouter([
   {
     path: '/Shop',
     element: <ShopPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/About',
+    element: <AboutPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/FindUs',
+    element: <FindUsPage />,
     errorElement: <UnderConstructionPage />,
   },
   {

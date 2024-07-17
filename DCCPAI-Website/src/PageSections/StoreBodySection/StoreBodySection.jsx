@@ -37,7 +37,7 @@ function ShopBodySection() {
             <ProductCard />
         </div>
         <div className={styles.pageList}>
-                 <div>1</div> {/*find a way to make it show the highlighted page */}
+                <div>1</div> {/*find a way to make it show the highlighted page */}
                 <div>2</div>
                 <div>3</div>
                 <div>4</div>
