@@ -9,6 +9,7 @@ import ShopPage from './Pages/ShopPage.jsx';
 import LandingPage from './Pages/LandingPage.jsx'
 import UnderConstructionPage from './Pages/UnderConstructionPage/UnderConstructionPage.jsx';
 import FindUsPage from './Pages/FindUsPage.jsx';
+import PrivacyPolicyPage from './Pages/PrivacyPolicyPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
   {
     path: '/FindUs',
     element: <FindUsPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/PrivacyPolicy',
+    element: <PrivacyPolicyPage />,
     errorElement: <UnderConstructionPage />,
   },
   {
