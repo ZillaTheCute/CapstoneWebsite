@@ -11,6 +11,8 @@ import UnderConstructionPage from './Pages/UnderConstructionPage/UnderConstructi
 import FindUsPage from './Pages/FindUsPage.jsx';
 import PrivacyPolicyPage from './Pages/PrivacyPolicyPage.jsx';
 import TermsAndConditionsPage from './Pages/TermsAndConditionsPage.jsx';
+import ReturnsPage from './Pages/ReturnsPage.jsx';
+import PaymentsPage from './Pages/PaymentsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +43,16 @@ const router = createBrowserRouter([
   {
     path: '/TermsAndConditions',
     element: <TermsAndConditionsPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/Returns',
+    element: <ReturnsPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/Payments',
+    element: <PaymentsPage />,
     errorElement: <UnderConstructionPage />,
   },
   {
