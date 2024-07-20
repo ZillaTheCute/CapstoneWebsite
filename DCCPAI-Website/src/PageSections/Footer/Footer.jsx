@@ -12,24 +12,24 @@ function Footer() {
         </div>
         <div className={`${styles.footerFirstColumn} ${styles.footerColumn}`}>
           <ul className={styles.footerList}>
-          <Link to="/" className="Link"><li>Shop</li></Link>
-          <Link to="/" className="Link"><li>Find Us</li></Link>
-          <Link to="/" className="Link"><li>About Us</li></Link>
-          <Link to="/" className="Link"><li>Privacy Policy</li></Link>
+          <Link to="/Shop" className="Link"><li>Shop</li></Link>
+          <Link to="/FindUs" className="Link"><li>Find Us</li></Link>
+          <Link to="/About" className="Link"><li>About Us</li></Link>
+          <Link to="/PrivacyPolicy" className="Link"><li>Privacy Policy</li></Link>
           </ul>
         </div>
         <div className={`${styles.footerSecondColumn} ${styles.footerColumn}`}>
           <ul className={styles.footerList}>
-          <Link to="/" className="Link"><li>Help & FAQ</li></Link>
-          <Link to="/" className="Link"><li>Delivery</li></Link>
-          <Link to="/" className="Link"><li>Returns</li></Link>
-          <Link to="/" className="Link"><li>Payment Methods</li></Link>
-          <Link to="/" className="Link"><li>Terms & Conditions</li></Link>
+          <Link to="/FAQ" className="Link"><li>Help & FAQ</li></Link>
+          <Link to="/PageNotFound" className="Link"><li>Delivery</li></Link>
+          <Link to="/Returns" className="Link"><li>Returns</li></Link>
+          <Link to="/Payments" className="Link"><li>Payment Methods</li></Link>
+          <Link to="/PageNotFound" className="Link"><li>Terms & Conditions</li></Link>
           </ul>
         </div>
         <div className={styles.footerContactText}>
-          Questions? Want to see your state? Send us a message at [insert link]. We'd love to hear from you.
-          Contact us: 855-443-8144
+          Questions? Send us a message at [insert link]. We'd love to hear from you.
+          Contact us: 123-456-7890
         </div>
       </div>
     </footer>
