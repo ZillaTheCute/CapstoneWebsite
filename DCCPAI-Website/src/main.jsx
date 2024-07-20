@@ -13,6 +13,8 @@ import PrivacyPolicyPage from './Pages/PrivacyPolicyPage.jsx';
 import TermsAndConditionsPage from './Pages/TermsAndConditionsPage.jsx';
 import ReturnsPage from './Pages/ReturnsPage.jsx';
 import PaymentsPage from './Pages/PaymentsPage.jsx';
+import LoginPage from './Pages/LoginPage.jsx';
+import AccountRegistrationPage from './Pages/AccountRegistrationPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,16 @@ const router = createBrowserRouter([
   {
     path: '/Payments',
     element: <PaymentsPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/Login',
+    element: <LoginPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/Registration',
+    element: <AccountRegistrationPage />,
     errorElement: <UnderConstructionPage />,
   },
   {
