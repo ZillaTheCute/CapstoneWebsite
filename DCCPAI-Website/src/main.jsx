@@ -15,6 +15,7 @@ import ReturnsPage from './Pages/ReturnsPage.jsx';
 import PaymentsPage from './Pages/PaymentsPage.jsx';
 import LoginPage from './Pages/LoginPage.jsx';
 import AccountRegistrationPage from './Pages/AccountRegistrationPage.jsx';
+import FAQPage from './Pages/FAQPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,11 @@ const router = createBrowserRouter([
   {
     path: '/Registration',
     element: <AccountRegistrationPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/FAQ',
+    element: <FAQPage />,
     errorElement: <UnderConstructionPage />,
   },
   {
