@@ -16,6 +16,7 @@ import PaymentsPage from './Pages/PaymentsPage.jsx';
 import LoginPage from './Pages/LoginPage.jsx';
 import AccountRegistrationPage from './Pages/AccountRegistrationPage.jsx';
 import FAQPage from './Pages/FAQPage.jsx';
+import ProductDetailsPage from './Pages/ProductDetailsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -71,6 +72,11 @@ const router = createBrowserRouter([
   {
     path: '/FAQ',
     element: <FAQPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
+    path: '/ProductDetails',
+    element: <ProductDetailsPage />,
     errorElement: <UnderConstructionPage />,
   },
   {

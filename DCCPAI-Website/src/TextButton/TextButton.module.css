@@ -1,5 +1,5 @@
 .TextButton {
-     border: 1px solid var(--dark-green-color); /* placeholder */
+    border: 1px solid var(--dark-green-color); /* placeholder */
     box-shadow: 3px 3px 0 0 var(--dark-green-color); /* placeholder */
     background-color: var(--lighter-yellow-color);
     color: var(--dark-green-color); /* placeholder */
