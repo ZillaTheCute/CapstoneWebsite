@@ -38,3 +38,7 @@
     gap: 8rem;
     margin-top: 6rem;
 }
+
+.searchBar:focus {
+    outline: none;
+}

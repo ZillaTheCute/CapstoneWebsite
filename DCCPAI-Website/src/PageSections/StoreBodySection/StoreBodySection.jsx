@@ -1,5 +1,6 @@
 import styles from './StoreBodySection.module.css';
 import ProductCard from '../../ProductCard/ProductCard.jsx'
+import PropTypes from 'prop-types';
 
 function ShopBodySection() {
     return(
@@ -26,15 +27,16 @@ function ShopBodySection() {
         
         <div className={styles.storeBodyRight}>
         <div className={styles.storeBodyGrid}>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/>
+            
         </div>
         <div className={styles.pageList}>
                 <div>1</div> {/*find a way to make it show the highlighted page */}
@@ -48,5 +50,13 @@ function ShopBodySection() {
     </>
     );
 }
+
+// ShopBodySection.PropTypes = {
+//     buttonLeadsTo: PropTypes.string,
+// }
+
+// ShopBodySection.defaultProps = {
+//     buttonLeadsTo: "",
+// }
 
 export default ShopBodySection

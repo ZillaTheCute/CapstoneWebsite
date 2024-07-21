@@ -1,6 +1,5 @@
 import styles from '../HeroTitleSection/HeroTitleSection.module.css';
 import TextButton from '../../TextButton/TextButton';
-import { Link } from "react-router-dom";
 
 function HeroTitleSection() {
   return (
@@ -11,9 +10,7 @@ function HeroTitleSection() {
           <div className={styles.heroSubText}>Davao City Chocolate Processors Association Incorporated</div>
         </div>
         <div className={styles.buttonContainer}>
-          <Link to="/" className="Link">
-            <TextButton buttonText="Shop!" className={styles.buttonContainer}></TextButton>
-          </Link>
+            <TextButton buttonText="Shop!" buttonLink="Shop" className={styles.buttonContainer}></TextButton>
         </div>
       </div>
     </div>

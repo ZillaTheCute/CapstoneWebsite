@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './ProductCard.module.css';
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
-function ProductCard() {
+function ProductCard(props) {
 
     return (
         <div className={styles.productCardContainer}>
             <div className={styles.productImageContainer}>
-                <Link to="/" className="Link">
+                <Link to={`/${props.buttonLink}`} className="Link">
                 <img 
                     src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?q=80&w=2139&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                     alt="Banana with a pink background" 
@@ -18,7 +19,7 @@ function ProductCard() {
             </div>
             <div className={styles.productTextContainer}>
                 <div className={styles.leftSideText}>
-                    <Link to="/" className="Link">
+                    <Link to={`/${props.buttonLink}`} className="Link">
                     <div className={styles.productName}>Product Name</div>
                     </Link>
                     <div className={styles.productDescription}>Product Description</div>
@@ -37,6 +38,14 @@ function ProductCard() {
             </div>
         </div>
     );
+}
+
+ProductCard.PropTypes = {
+    buttonLink: PropTypes.string,
+}
+
+ProductCard.defaultProps = {
+    buttonLink: "",
 }
 
 export default ProductCard;

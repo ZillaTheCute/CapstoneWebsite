@@ -1,6 +1,5 @@
 import styles from './OurCacaoSection.module.css';
 import TextButton from '../../TextButton/TextButton';
-import { Link } from "react-router-dom";
 
 function OurCacaoSection() {
   return (
@@ -12,9 +11,7 @@ function OurCacaoSection() {
         Distinctly Davao
       </div>
       <div className={styles.buttonContainer}>
-      <Link to="/Shop" className="Link">
-      <TextButton buttonText="Shop!" className={styles.buttonContainer}></TextButton>
-      </Link>
+      <TextButton buttonText="Shop!" buttonLink="Shop" className={styles.buttonContainer}></TextButton>
       </div>
     </div>
   );
