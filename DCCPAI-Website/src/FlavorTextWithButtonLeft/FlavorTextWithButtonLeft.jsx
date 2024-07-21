@@ -9,9 +9,9 @@ function FlavorTextWithButtonLeft(props) {
             <div className={`${styles.whoWeAreMainText} ${styles.whoWeAreText}`}>{props.mainText}</div>
             <div className={`${styles.whoWeAreSubText} ${styles.whoWeAreText}`}>{props.subText}</div>
             <div className={styles.buttonContainer}>
-                <Link to="/pageUnderConstruction" className="Link">
-                <TextButton className={`${styles.button} ${styles.shopButton}`} buttonText={props.buttonLabel} />
-                </Link>
+                {/* <Link to="/pageUnderConstruction" className="Link"> */}
+                <TextButton className={`${styles.button} ${styles.shopButton}`} buttonText={props.buttonLabel} buttonLink={props.buttonLeadsTo}/>
+                {/* </Link> */}
             </div>
         </div>
     );
@@ -21,11 +21,13 @@ FlavorTextWithButtonLeft.PropTypes = {
     mainText: PropTypes.string,
     subText: PropTypes.string,
     buttonLabel: PropTypes.string,
+    buttonLeadsTo: PropTypes.string,
 }
 FlavorTextWithButtonLeft.defaultProps = {
     mainText: "Main Text (Left)",
     subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac. Elementum facilisis leo vel fringilla est ullamcorper eget. Dignissim suspendisse in est ante in nibh mauris. Tincidunt eget nullam non nisi est.",
     buttonLabel: "Button Label",
+    buttonLeadsTo: "",
 }
 
 export default FlavorTextWithButtonLeft;

@@ -19,11 +19,11 @@ function AboutBodySection() {
         </div>
         
         <div className={styles.leftText}>
-            <FlavorTextWithButtonLeft />
+            <FlavorTextWithButtonLeft mainText="Testing Left Text w/ Button Link" buttonLabel="yahoo" buttonLeadsTo="Shop"/>
         </div>
         
         <div className={styles.rightText}>
-            <FlavorTextWithButtonRight />
+            <FlavorTextWithButtonRight mainText="Testing Right Text" buttonLabel="Frequently Asked Questions" buttonLeadsTo="FAQ"/>
         </div>
         
         <div className={styles.bottomText}>
