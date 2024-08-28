@@ -1,9 +1,13 @@
 .aboutBodyContainer {
     display: flex;
     flex-direction: column;
-    padding: 0 3vw;
+    padding: 0 30vw;
     min-height: 100vh;
     margin-bottom: 8rem;
+}
+
+.leftText, .rightText {
+    margin: 5rem 0;
 }
 
 .leftText {

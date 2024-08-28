@@ -24,7 +24,7 @@ FlavorTextWithButtonRight.PropTypes = {
     buttonLeadsTo: PropTypes.string,
 }
 FlavorTextWithButtonRight.defaultProps = {
-    mainText: "Main Text (Left)",
+    mainText: "Main Text (Right)",
     subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac. Elementum facilisis leo vel fringilla est ullamcorper eget. Dignissim suspendisse in est ante in nibh mauris. Tincidunt eget nullam non nisi est.",
     buttonLabel: "Button Label",
     buttonLeadsTo: "",

@@ -5,7 +5,7 @@ function PrivacyPolicyTitleSection() {
     return(
         <>
         <div className={styles.privacyPolicyTitleContainer}>
-            <FlavorTextMiddle mainText="Privacy Policy" />
+            <FlavorTextMiddle mainText="Privacy Policy (Might Be Removed)" />
         </div>
         </>
     );

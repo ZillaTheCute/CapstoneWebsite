@@ -11,19 +11,19 @@ function AboutBodySection() {
     <div className={styles.aboutBodyContainer}>
 
         <div className={styles.leftText}>
-            <FlavorTextLeft />
+            <FlavorTextLeft mainText="The Vision" subText="Insert Vision or other text Here"/>
         </div>
 
         <div className={styles.rightText}>
-            <FlavorTextRight />
+            <FlavorTextRight mainText="The Mission" subText="Insert Mission or other text Here"/>
         </div>
         
         <div className={styles.leftText}>
-            <FlavorTextWithButtonLeft mainText="Testing Left Text w/ Button Link" buttonLabel="yahoo" buttonLeadsTo="Shop"/>
+            <FlavorTextWithButtonLeft mainText="The Process (tentative)" buttonLabel="yahoo"/>
         </div>
         
         <div className={styles.rightText}>
-            <FlavorTextWithButtonRight mainText="Testing Right Text" buttonLabel="Frequently Asked Questions" buttonLeadsTo="FAQ"/>
+            <FlavorTextWithButtonRight mainText="The Source (tentative)" buttonLabel="Frequently Asked Questions"/>
         </div>
         
         <div className={styles.bottomText}>
