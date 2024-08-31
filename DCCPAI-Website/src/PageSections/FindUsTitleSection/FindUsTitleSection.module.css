@@ -1,5 +1,5 @@
 .findUsTitleContainer {
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 .findUsTitleContainer h1 {
@@ -13,3 +13,9 @@
     text-align: center;
     margin: 0 0 0 0;
 }
+
+/* .findUsTitleContainer h3 {
+    font-size: 8rem;
+    text-align: center;
+    margin: 0 0 0 0;
+} */

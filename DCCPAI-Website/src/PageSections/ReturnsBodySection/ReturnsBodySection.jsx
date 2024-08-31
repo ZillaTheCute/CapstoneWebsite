@@ -5,7 +5,11 @@ function ReturnsBodySection() {
     return(
     <>
     <div className={styles.returnsBodyContainer}>
-        <FlavorTextLeftFull />
+        <FlavorTextLeftFull mainText="Return Eligibility" />
+        <FlavorTextLeftFull mainText="Return Process" />
+        <FlavorTextLeftFull mainText="Damaged or Defective Items" />
+        <FlavorTextLeftFull mainText="Order Cancellations" />
+        <FlavorTextLeftFull mainText="Contact Us" />
     </div>
     </>
     );

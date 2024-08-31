@@ -21,10 +21,10 @@ function Footer() {
         <div className={`${styles.footerSecondColumn} ${styles.footerColumn}`}>
           <ul className={styles.footerList}>
           <Link to="/FAQ" className="Link"><li>Help & FAQ</li></Link>
-          <Link to="/PageNotFound" className="Link"><li>Delivery</li></Link>
+          <Link to="/PageNotFound" className="Link"><li>Delivery (Tentative) </li></Link>
           <Link to="/Returns" className="Link"><li>Returns</li></Link>
           <Link to="/Payments" className="Link"><li>Payment Methods</li></Link>
-          <Link to="/PageNotFound" className="Link"><li>Terms & Conditions</li></Link>
+          <Link to="/PageNotFound" className="Link"><li>Terms & Conditions (Tentative)</li></Link>
           </ul>
         </div>
         <div className={styles.footerContactText}>
