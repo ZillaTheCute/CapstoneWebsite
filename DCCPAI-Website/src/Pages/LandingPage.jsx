@@ -13,7 +13,6 @@ function LandingPage() {
         <OurCacaoSection />
         <WhoWeAreSection />
         <Footer /> 
-        <ProductCardPanel /> 
         </>
     )
 }
