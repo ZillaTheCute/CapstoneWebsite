@@ -83,6 +83,20 @@
     column-gap: 10rem;
 }
 
+/* Hover States: */
+
+.xButton, .xButton button {
+    transition: background-color 0.3s ease-in-out, 
+                color            0.3s ease-in-out;
+  }
+  
+.xButton:hover {
+      cursor: pointer;
+      color: white; /* placeholder */
+      background-color: var(--dark-green-color);
+}
+
 .panelInput:focus {
     outline: none;
 }
+
