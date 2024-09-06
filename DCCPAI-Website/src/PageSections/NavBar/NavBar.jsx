@@ -1,5 +1,6 @@
 import styles from '../NavBar/NavBar.module.css';
 import { Link } from "react-router-dom";
+import logoImage from '../../Assets/Pictures/Logotext/DCCPAI Logotext1.png'
 
 function NavBar() {
 
@@ -8,7 +9,9 @@ function NavBar() {
             <div className={styles.navBarContainer}>
                 
                 <div className={styles.navBarLogoText}>
-                <Link to="/" className="Link">[DCCPAI LOGOTEXT]</Link>
+                    <Link to="/" className="Link">
+                        <img src={logoImage} className={styles.logoImage}></img>
+                    </Link>
                 </div>
 
                 <div className={styles.navBarContent}>

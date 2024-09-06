@@ -8,11 +8,15 @@
     font-weight: bold;
 }
 
+.logoImage {
+    height: 15vh; 
+}
+
 .navBarContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 3vw;
+    padding: 0 10vw;
 }
 
 .navBarLogoText {
