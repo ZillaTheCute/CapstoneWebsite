@@ -1,9 +1,10 @@
 .productDetailsBodyContainer {
     margin:  0 3vw;
-    padding: calc(calc(100vh - 130px - 64rem)/2) 0;
+    height: 100vh;
+    /* padding: calc(calc(100vh - 130px - 64rem)/2) 0; */
     /* height: calc(100vh - 130px); */
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     column-gap: 10rem;
 }
