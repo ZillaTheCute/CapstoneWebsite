@@ -12,7 +12,6 @@ function LandingPage() {
         <NavBar />
         <HeroTitleSection2 />
         <OurCacaoSection />
-        <WhoWeAreSection />
         <WhoWeAreSection2 /> 
         <Footer /> 
         </>

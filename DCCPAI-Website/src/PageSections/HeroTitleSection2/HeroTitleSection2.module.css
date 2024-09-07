@@ -29,7 +29,7 @@ p {
 
 .heroText {
     font-family: var(--LilitaOne);
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
     font-size: 3rem;
     line-height: 1;
@@ -38,4 +38,5 @@ p {
 .subText {
     font-size: 2rem;
     margin: 2rem 0;
+    line-height: 1.5;
 }
