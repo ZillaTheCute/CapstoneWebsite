@@ -7,7 +7,7 @@
 }
 
 .whoWeAreMainText {
-    font-weight: bold;
+    font-family: var(--LilitaOne);
     font-size: 8rem;
 }
 

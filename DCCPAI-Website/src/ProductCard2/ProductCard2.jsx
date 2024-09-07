@@ -11,10 +11,10 @@ function ProductCard2(props) {
 
             <div className={styles.topRow}>
                 <div className={styles.productReview}>
-                    Reviews
+                    ★★★★★ 200 Reviews
                 </div>
                 <div className={styles.productPrice}>
-                    $Price
+                    ₱250.00
                 </div>
             </div>
 
