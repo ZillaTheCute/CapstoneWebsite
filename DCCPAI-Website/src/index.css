@@ -13,12 +13,18 @@
   --main-hero-text-size: 12rem;
   --sub-hero-text-size: 4.5rem;
   --button-text-size: 2.5rem;
+  --leftrightpadding: 10vw;
 
   /* Color Palette  Link: https://colorhunt.co/palette/365e3281a263e7d37ffd9b63 */
   --dark-green-color: #365E32;
   --light-green-color: #81A263;
-  --lighter-yellow-color: #E7D37F;
+  /* --lighter-yellow-color: #E7D37F; */
+  --lighter-yellow-color: #FFD757;
   --orange-color: #FD9B63;
+
+  /*fonts*/
+  --Roboto: "Roboto", sans-serif;
+  --LilitaOne: "Lilita One", sans-serif
 }
 
 body {

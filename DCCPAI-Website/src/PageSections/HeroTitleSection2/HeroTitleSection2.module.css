@@ -16,9 +16,7 @@
     width: 20vw;
     border: 1px solid black; /* placeholder */
     box-shadow: 3px 3px 0 0 black;
-    margin-top: auto;
-    margin-left: 10vw;
-    margin-bottom: 5rem;
+    margin: auto var(--leftrightpadding) 5rem var(--leftrightpadding);
     border-radius: 2rem;
     background-color: white;
     padding: 4rem;
@@ -30,7 +28,7 @@ p {
 }
 
 .heroText {
-    font-family: "Lilita One", sans-serif;
+    font-family: var(--LilitaOne);
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
