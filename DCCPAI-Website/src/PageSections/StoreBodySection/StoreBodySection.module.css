@@ -1,8 +1,13 @@
 .storeBodyContainer {
+    padding: 0 var(--leftrightpadding);
     display: flex;
-    justify-content: center;
-    column-gap: 16rem;
+    justify-content: space-between;
     min-height: 100vh;
+}
+
+.storeBodyLeft h1, .storeBodyLeft h2 {
+    font-family: var(--LilitaOne);
+    font-weight: normal;
 }
 
 .storeBodyLeft h1 {

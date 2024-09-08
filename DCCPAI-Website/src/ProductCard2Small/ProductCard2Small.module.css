@@ -7,7 +7,7 @@
     box-shadow: 3px 3px 0 0 black;
     border-radius: 2rem;
     height: 50vh;
-    width: 22vw;
+    width: 18vw;
     flex-shrink: 0; /* Prevents the card from shrinking */
 }
 
@@ -40,5 +40,5 @@
 
 .bottomRow {
     margin-top: auto;
-    font-size: var(--sub-hero-text-size);
+    font-size: 3.5rem;
 }

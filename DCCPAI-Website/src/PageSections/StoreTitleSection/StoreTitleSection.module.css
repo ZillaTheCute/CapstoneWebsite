@@ -4,6 +4,13 @@
 }
 
 .shopTitleContainer h1 {
-    font-size: 3rem;
+    font-size: 12rem;
+}
+
+.shopTitleContainer h2, .shopTitleContainer h1 {
+    font-family: var(--LilitaOne);
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }

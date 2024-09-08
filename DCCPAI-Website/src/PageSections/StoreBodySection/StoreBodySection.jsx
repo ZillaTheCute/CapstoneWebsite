@@ -1,5 +1,7 @@
 import styles from './StoreBodySection.module.css';
 import ProductCard from '../../ProductCard/ProductCard.jsx'
+import ProductCard2 from '../../ProductCard2/ProductCard2.jsx'
+import ProductCard2Small from '../../ProductCard2Small/ProductCard2Small.jsx'
 import PropTypes from 'prop-types';
 
 function ShopBodySection() {
@@ -27,6 +29,7 @@ function ShopBodySection() {
         
         <div className={styles.storeBodyRight}>
         <div className={styles.storeBodyGrid}>
+            {/* <ProductCard buttonLink='ProductDetails'/>
             <ProductCard buttonLink='ProductDetails'/>
             <ProductCard buttonLink='ProductDetails'/>
             <ProductCard buttonLink='ProductDetails'/>
@@ -34,8 +37,16 @@ function ShopBodySection() {
             <ProductCard buttonLink='ProductDetails'/>
             <ProductCard buttonLink='ProductDetails'/>
             <ProductCard buttonLink='ProductDetails'/>
-            <ProductCard buttonLink='ProductDetails'/>
-            <ProductCard buttonLink='ProductDetails'/>
+            <ProductCard buttonLink='ProductDetails'/> */}
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
+            <ProductCard2Small />
             
         </div>
         <div className={styles.pageList}>
