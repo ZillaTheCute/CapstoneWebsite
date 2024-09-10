@@ -1,7 +1,8 @@
 .findUsBodyContainer {
+    background-color: var(--dark-green-color);
     text-align: center;
-    margin: 0 0 0 4rem;
-    padding: 0 0 4rem 0;
+    padding: 0 0 5rem 0;
+    height: calc(100vh - 282px);
 }
 
 
