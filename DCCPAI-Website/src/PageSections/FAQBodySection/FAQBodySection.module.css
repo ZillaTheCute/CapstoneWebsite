@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 3vw;
-    min-height: 100vh;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .searchBarDiv {
@@ -41,4 +40,11 @@
 
 .searchBar:focus {
     outline: none;
+}
+
+.FAQCard {
+    padding: 4rem;
+    border: 1px solid var(--dark-green-color); /* placeholder */
+    box-shadow: 3px 3px 0 0 var(--dark-green-color);
+    border-radius: 2rem;
 }
