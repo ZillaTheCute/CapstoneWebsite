@@ -6,6 +6,8 @@ function PaymentsBodySection() {
     <>
     <div className={styles.paymentsBodyContainer}>
         <FlavorTextLeftFull />
+        <FlavorTextLeftFull />
+        <FlavorTextLeftFull />
     </div>
     </>
     );
