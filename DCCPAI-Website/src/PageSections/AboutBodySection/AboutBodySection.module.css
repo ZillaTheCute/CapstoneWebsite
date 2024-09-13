@@ -1,19 +1,44 @@
 .aboutBodyContainer {
     display: flex;
     flex-direction: column;
-    padding: 0 30vw;
-    min-height: 100vh;
-    margin-bottom: 8rem;
+    margin: 10rem 0;
+    padding: 0 var(--leftrightpadding);
 }
 
-.leftText, .rightText {
-    margin: 5rem 0;
+.missionVisionContainer { 
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-template-rows: auto auto; /* Two rows */
+    margin-bottom: 10rem;
+    row-gap: 4rem;
 }
 
-.leftText {
-    align-self: flex-start; /* Optional, if you want to ensure left alignment */
+.leftTextTop {
+    grid-column: 1 / 1; /* Span from the first to the second column line */
+    grid-row: 1 / 1;    /* Span from the first to the second row line */
 }
 
-.rightText {
-    align-self: flex-end; /* This aligns the element to the right side of the container */
+.flavorPicture {
+    justify-self: center;
+    align-self: center;
+    grid-column: 2 / 2; 
+    grid-row: 1 / 3; 
 }
+
+.leftTextBottom {
+    grid-column: 1 / 1; 
+    grid-row: 2 / 2; 
+}
+
+.theProcess, .theSource {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.theProcess .leftText, .theSource .rightText {
+    justify-self: center;
+    align-self: center;
+}
+
+
