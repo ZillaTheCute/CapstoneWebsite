@@ -1,5 +1,5 @@
 import styles from '../Footer/Footer.module.css';
-import logoImage from '../../Assets/Pictures/Logotext/DCCPAI Logotext1.png'
+import logoImage from '../../Assets/Pictures/Logotext/DCCPAI Logotext2.png'
 import { Link } from "react-router-dom";
 
 function Footer() {

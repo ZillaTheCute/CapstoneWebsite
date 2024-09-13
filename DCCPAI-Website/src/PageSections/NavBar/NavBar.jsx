@@ -1,6 +1,6 @@
 import styles from '../NavBar/NavBar.module.css';
 import { Link } from "react-router-dom";
-import logoImage from '../../Assets/Pictures/Logotext/DCCPAI Logotext1.png'
+import logoImage from '../../Assets/Pictures/Logotext/DCCPAI Logotext2.png'
 
 function NavBar() {
 
