@@ -45,7 +45,7 @@ function AboutBodySection() {
         
         
         <div className={styles.bottomText}>
-            <FlavorTextMiddle mainText="We hope to see you." subText="We are located @ lorem ipsum address [insert physical store address here]"/>
+            <FlavorTextMiddle mainText="We hope to see you." subText="We are located @ Maya St, Ecoland Dr, Talomo, Davao City, Davao del Sur"/>
         </div>
 
     </div>
