@@ -1,5 +1,7 @@
 .shopTitleContainer {
     padding: 15rem 0 5rem 0;
+    /* background-color: var(--light-green-color);
+    color: white; */
 }
 
 .shopTitleContainer h1 {
@@ -17,5 +19,5 @@
 }
 
 .shopTitleContainer h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }

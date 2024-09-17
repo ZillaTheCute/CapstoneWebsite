@@ -4,6 +4,11 @@ import TermsAndConditionsTitleSection from '../PageSections/TermsAndConditionsTi
 import TermsAndConditionsBodySection from '../PageSections/TermsAndConditionsBodySection/TermsAndConditionsBodySection.jsx'
 
 function TermsAndConditionsPage() {
+
+    useEffect(() => {
+        document.title = 'DCCPAi - Terms & Conditions'; // Change this text as needed
+    }, []);
+
     return (
         <>
         <NavBar />  
