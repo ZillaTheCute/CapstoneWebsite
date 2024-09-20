@@ -19,7 +19,6 @@ function AboutBodySection() {
             </div>
 
             <div className={styles.flavorPicture}>
-                <PictureCard />
             </div>
 
             <div className={styles.leftTextBottom}>
@@ -30,7 +29,7 @@ function AboutBodySection() {
         </div>
         
         <div className={styles.theProcess}>
-            <PictureCard />
+            <div className={styles.theProcessPicture}></div>
             <div className={styles.leftText}>
                 <FlavorTextWithButtonLeft mainText="The Process" buttonLabel="Video"/>
             </div>
@@ -40,7 +39,7 @@ function AboutBodySection() {
             <div className={styles.rightText}>
                 <FlavorTextWithButtonRight mainText="The Source" buttonLabel="Frequently Asked Questions" buttonLeadsTo="FAQ"/>
             </div>
-            <PictureCard />
+            <div className={styles.theSourcePicture}></div>
         </div>
         
         
