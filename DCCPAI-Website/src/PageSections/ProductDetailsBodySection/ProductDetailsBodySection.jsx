@@ -5,13 +5,23 @@ function ProductDetailsBodySection() {
     return(
     <>
     <div className={styles.productDetailsBodyContainer}>
+        <div className={styles.imageWithArrowsDiv}>
 
+        <div className={styles.leftArrow}>
+            <h1>{'<'}</h1>
+        </div>
         <img 
             src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?q=80&w=2139&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="Banana with a pink background" 
             id="productImage1" 
             className={styles.productImage}
         />
+        <div className={styles.rightArrow}>
+            <h1>{'>'}</h1>
+        </div>
+
+        </div>
+        
 
         <div className={styles.textContainer}>
             <h1>Product Name</h1>

@@ -9,12 +9,40 @@
     column-gap: 10rem;
 }
 
+.imageWithArrowsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
 .productDetailsBodyContainer img {
     height: 64rem;
     width: 64rem;
     overflow: hidden;
     border-radius: 3rem;
     border: solid 3px;
+}
+
+.leftArrow, .rightArrow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid var(--dark-green-color); /* placeholder */
+    box-shadow: 2px 2px 0 0 var(--dark-green-color); 
+    background-color: var(--lighter-yellow-color);
+    color: var(--dark-green-color); /* placeholder */
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: var(--button-text-size);
+    text-decoration: none;
+}
+
+.leftArrow h1, .rightArrow h1 {
+    font-size: 3rem;
 }
 
 .textContainer {
@@ -47,12 +75,12 @@
 }
 
 /* Hover States */
-.textContainer button {
+.textContainer button, .leftArrow, .rightArrow {
     transition: background-color 0.3s ease-in-out, 
                 color            0.3s ease-in-out;
   }
   
-    .textContainer button:hover {
+    .textContainer button:hover, .leftArrow:hover, .rightArrow:hover {
       cursor: pointer;
       color: white; /* placeholder */
       background-color: var(--dark-green-color);
