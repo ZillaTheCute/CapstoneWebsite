@@ -17,15 +17,12 @@ function ProductCardPanel() {
             <div className={styles.productCardPanelGrid}>
 
             <div className={styles.leftSideTop}>
-
                 <div className={styles.imagePreview}>
                     <h1>Image Preview Here</h1>
                 </div>
-
             </div>
             
             <div className={styles.rightSide}> 
-
                 <div className={styles.panelInputDiv} >
                     <input type="text" placeholder="Name" className={styles.panelInput}>
                     </input>
@@ -37,22 +34,39 @@ function ProductCardPanel() {
                 </div>
 
                 <div className={styles.panelInputDiv} >
-                    <input type="text" placeholder="Category" className={styles.panelInput}>
+                    <select name="Category" className={styles.panelInput}>
+                        <option>Select a Category</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+
+                <div className={styles.panelInputDiv} >
+                    <input type="text" placeholder="Price" className={styles.panelInput}>
                     </input>
                 </div>
+            </div>
 
             </div>
 
-            <div className={styles.leftSideBottom}>
+            <div className={styles.bottomInputsDiv}>
 
-                    <div className={styles.nameAndPrice}>
-                        <h1>Name/Price</h1>
-                    </div>
-                    <div className={styles.price}>
-                        <h1>Price</h1>
-                    </div>
+            <div className={styles.bottomInputs}>
+                <h1>Display:</h1>
+                <input type="radio" className={styles.displayRadial}></input>
+            </div>
 
-                </div>
+            <div className={styles.bottomInputs}>
+                <h1>Available:</h1>
+                <input type="radio" className={styles.displayRadial}></input>
+            </div>
+
+            <div className={styles.imageSubmission}>
+                <h1>Upload Image</h1>
+                <input type="submit" className={styles.submitButton}></input>
+                <h1>No File Chosen</h1>
+            </div>
 
             </div>
 

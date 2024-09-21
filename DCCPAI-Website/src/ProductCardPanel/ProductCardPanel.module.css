@@ -41,12 +41,10 @@
 
 .panelInputDiv {
     text-align: center;
-    /* margin: 0 0 0 8rem 0; */
 }
 
 .panelInputDiv h1{
     font-size: 8rem;
-    /* margin: 0 0 1.5rem 0; */
 }
 
 .panelInput {
@@ -59,21 +57,53 @@
     font-size: 2rem;
 }
 
+.panelInputDiv select {
+    display: flex;
+    width: 100%;
+}
+
 .productCardPanelGrid {
-    display: grid;
-    grid-template-columns: repeat(2, auto); 
-    grid-template-rows: repeat(2, auto);
+    margin-top: 4rem;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+.bottomInputsDiv {
+    margin: 4rem 0 4rem 11rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
+
+.bottomInputs, .imageSubmission {
+    width: fit-content;
+    display: flex;
+    border: 1px solid black; /* placeholder */
+    box-shadow: 3px 3px 0 0 black;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 0 2rem;
+}
+
+.imageSubmission {
+    column-gap: 1rem;
+}
+
+.imageSubmission input {
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
 }
 
 .rightSide {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .leftSideBottom h1 {
     font-size: var(--button-text-size);
-    
 }
 
 .bottomButtons {
