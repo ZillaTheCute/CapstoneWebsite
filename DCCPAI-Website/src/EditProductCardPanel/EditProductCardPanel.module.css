@@ -9,10 +9,10 @@
 
 .topRow {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
-.topRow .addText {
+.topRow .editText {
     font-size: var(--sub-hero-text-size);
     font-family: var(--LilitaOne);
     color: var(--dark-green-color);
@@ -78,7 +78,7 @@
 }
 
 .bottomInputsDiv {
-    margin: 4rem 0 4rem 11rem;
+    margin: 4rem 0 4rem 0;
     display: flex;
     justify-content: center;
     column-gap: 4rem;
@@ -123,8 +123,10 @@
 
 /* Hover States: */
 
-.xButton, .xButton button {
-    transition: background-color 0.3s ease-in-out, 
+.xButton, .xButton button, .bottomInputButtons, .bottomInputButtonsDelete {
+    transition: background-color 0.3s ease-in-out,
+                box-shadow 0.2s ease-in-out,  
+                border 0.2s ease-in-out,  
                 color            0.3s ease-in-out;
   }
   
@@ -132,6 +134,20 @@
       cursor: pointer;
       color: white; /* placeholder */
       background-color: red;
+}
+
+.bottomInputButtons:hover {
+    cursor: pointer;
+    border: 1px solid var(--dark-green-color); /* placeholder */
+    box-shadow: 4px 4px 0 0 var(--dark-green-color);
+    color: var(--dark-green-color);
+}
+
+.bottomInputButtonsDelete:hover {
+    cursor: pointer;
+    border: 1px solid red; /* placeholder */
+    box-shadow: 4px 4px 0 0 red;
+    color: red;
 }
 
 .panelInput:focus {

@@ -7,7 +7,6 @@ import OurCacaoSection from '../PageSections/OurCacaoSection/OurCacaoSection.jsx
 import WhoWeAreSection from '../PageSections/WhoWeAreSection/WhoWeAreSection.jsx'
 import WhoWeAreSection2 from '../PageSections/WhoWeAreSection2/WhoWeAreSection2.jsx'
 
-
 function LandingPage() {
 
     useEffect(() => {

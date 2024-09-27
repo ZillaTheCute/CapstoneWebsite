@@ -1,17 +1,17 @@
 import React from 'react';
-import styles from './ProductCardPanel.module.css';
+import styles from './EditProductCardPanel.module.css';
 import TextButton from '../TextButton/TextButton';
 import { Link } from "react-router-dom";
 
 
-function ProductCardPanel() {
+function EditProductCardPanel() {
 
     return (
         <>
         <div className={styles.panelContainer}>
 
             <div className={styles.topRow}>
-                <div className={styles.addText}>Add</div>
+                <div className={styles.editText}>Edit</div>
                 <button className={styles.xButton}>&times;</button>
             </div>
 
@@ -53,6 +53,18 @@ function ProductCardPanel() {
 
             <div className={styles.bottomInputsDiv}>
 
+            <div className={`${styles.bottomInputs} ${styles.bottomInputButtons}`}>
+                <h1>Upload Image</h1>
+            </div>
+
+            <div className={`${styles.bottomInputs} ${styles.bottomInputButtons}`}>
+                <h1>Update Image</h1>
+            </div>
+
+            <div className={`${styles.bottomInputs} ${styles.bottomInputButtons} ${styles.bottomInputButtonsDelete}`}>
+                <h1>Delete Image</h1>
+            </div>
+ 
             <div className={styles.bottomInputs}>
                 <h1>Display:</h1>
                 <input type="radio" className={styles.displayRadial}></input>
@@ -73,7 +85,7 @@ function ProductCardPanel() {
 
             <div className={styles.bottomButtons}>  
                 <TextButton buttonText="Cancel" /> 
-                <TextButton buttonText="Add" /> 
+                <TextButton buttonText="Apply" /> 
             </div>
 
         </div>
@@ -82,4 +94,4 @@ function ProductCardPanel() {
 }
 
 
-export default ProductCardPanel;
+export default EditProductCardPanel;

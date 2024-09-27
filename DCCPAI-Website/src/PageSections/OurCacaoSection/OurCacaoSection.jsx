@@ -11,11 +11,11 @@ function OurCacaoSection() {
 
       <div className={styles.ourCacaoSectionTitle}>
         <div className={styles.ourCacaoMainText}>
-          Our Cacao
+          Our Best.
         </div>
 
         <div className={styles.ourCacaoSubText}>
-          Distinctly Davao. (make this a carousel or not)
+          Distinctly Davao
         </div>
       </div>
       
