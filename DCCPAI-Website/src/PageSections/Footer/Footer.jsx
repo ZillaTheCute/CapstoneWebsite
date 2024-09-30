@@ -31,8 +31,7 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.footerContactText}>
-          Questions? Send us a message at [insert link]. We'd love to hear from you.
-          Contact us: 123-456-7890
+          Questions? Send us a message through our Whatsapp. We'd love to hear from you.
         </div>
       </div>
     </footer>
