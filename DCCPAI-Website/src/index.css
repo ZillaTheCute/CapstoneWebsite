@@ -33,6 +33,13 @@ body {
   padding: 0;
 }
 
+em {
+  font-family: var(--LilitaOne);
+  color: var(--light-green-color);
+  font-weight: normal;
+  font-style: normal;
+}
+
 .svgContainer { /*default SVG Sizes */
   max-width: 2rem;
   max-height: 2rem;

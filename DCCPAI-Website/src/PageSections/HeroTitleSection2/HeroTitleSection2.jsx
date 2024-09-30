@@ -6,7 +6,7 @@ function HeroTitleSection2() {
     <div className={styles.heroImageSection}>
         <div className={styles.heroTitleSectionCard}>
             <p className={styles.heroText}>Davao City Chocolate Processors Association Incorporated.</p>
-            <p className={styles.subText}>Lorem ipsum odor amet, consectetuer adipiscing elit. Hendrerit morbi porttitor, diam mus posuere velit torquent. Lacus elit litora ullamcorper sem tellus auctor ligula litora.</p>
+            <p className={styles.subText}>Join us on a journey where passion meets quality. Together, we <em>celebrate</em> the art of chocolate-making while fostering sustainable practices that benefit our community.</p>
             <TextButton buttonText="Shop" buttonLink="Shop"/> 
         </div>
     </div>
