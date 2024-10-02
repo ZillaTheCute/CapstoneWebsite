@@ -90,9 +90,7 @@ function EditProductCardPanel() {
             </div>
 
             <div className={styles.imageSubmission}>
-                <h1>Upload Image</h1>
-                <input type="submit" className={styles.submitButton}></input>
-                <h1>No File Chosen</h1>
+                <input type="file" className={styles.submitButton}></input>
             </div>
 
             </div>
