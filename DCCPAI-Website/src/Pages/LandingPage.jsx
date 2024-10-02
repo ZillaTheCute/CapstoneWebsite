@@ -6,6 +6,7 @@ import HeroTitleSection2 from '../PageSections/HeroTitleSection2/HeroTitleSectio
 import OurCacaoSection from '../PageSections/OurCacaoSection/OurCacaoSection.jsx'
 import WhoWeAreSection from '../PageSections/WhoWeAreSection/WhoWeAreSection.jsx'
 import WhoWeAreSection2 from '../PageSections/WhoWeAreSection2/WhoWeAreSection2.jsx'
+import EditProductCardPanel from '../EditProductCardPanel/EditProductCardPanel.jsx'
 
 function LandingPage() {
 
@@ -18,6 +19,7 @@ function LandingPage() {
         <NavBar />
         <HeroTitleSection2 />
         <OurCacaoSection />
+        <EditProductCardPanel/>
         <WhoWeAreSection2 /> 
         <Footer /> 
         </>

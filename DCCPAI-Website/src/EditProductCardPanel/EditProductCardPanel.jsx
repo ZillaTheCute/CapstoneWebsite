@@ -22,7 +22,7 @@ function EditProductCardPanel() {
                     <h1>Image Preview Here</h1>
                 </div>
             </div>
-            
+
             <div className={styles.rightSide}> 
                 <div className={styles.panelInputDiv} >
                     <input type="text" placeholder="Name" className={styles.panelInput}>
@@ -48,6 +48,20 @@ function EditProductCardPanel() {
                     </input>
                 </div>
             </div>
+
+            </div>
+
+            <div className={styles.leftAndRightButtonAndCounter}>
+
+                <div className={styles.leftArrow}>
+                    <h1>{'<'}</h1>
+                    </div>
+                <div className={styles.imageCounter}>
+                     1 / 1 {/*THE IMAGE COUNTER IS HERE */}
+                </div>
+                <div className={styles.rightArrow}>
+                    <h1>{'>'}</h1>
+                </div>
 
             </div>
 

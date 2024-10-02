@@ -30,6 +30,27 @@
     font-weight: bold;
 }
 
+.leftArrow, .rightArrow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid var(--dark-green-color); /* placeholder */
+    box-shadow: 2px 2px 0 0 var(--dark-green-color); 
+    background-color: var(--lighter-yellow-color);
+    color: var(--dark-green-color); /* placeholder */
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: var(--button-text-size);
+    text-decoration: none;
+}
+
+.leftArrow h1, .rightArrow h1 {
+    font-size: 3rem;
+}
+
 .imagePreview {
     display: flex;
     flex-direction: column;
@@ -75,6 +96,21 @@
     display: flex;
     justify-self: center;
     justify-content: space-between;
+}
+
+.leftAndRightButtonAndCounter {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    column-gap: 2rem;
+}
+
+.imageCounter {
+    color: var(--dark-green-color);
+    font-size: var(--button-text-size);
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
 }
 
 .bottomInputsDiv {
@@ -123,7 +159,7 @@
 
 /* Hover States: */
 
-.xButton, .xButton button, .bottomInputButtons, .bottomInputButtonsDelete {
+.xButton, .xButton button, .bottomInputButtons, .bottomInputButtonsDelete.leftArrow, .rightArrow {
     transition: background-color 0.3s ease-in-out,
                 box-shadow 0.2s ease-in-out,  
                 border 0.2s ease-in-out,  
@@ -153,4 +189,10 @@
 .panelInput:focus {
     outline: none;
 }
+
+.leftArrow:hover, .rightArrow:hover {
+    cursor: pointer;
+    color: white; /* placeholder */
+    background-color: var(--dark-green-color);
+  }
 
