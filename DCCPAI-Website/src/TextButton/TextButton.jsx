@@ -6,10 +6,9 @@ function TextButton(props) {
     return(
         <>
         <Link to={`/${props.buttonLink}`} className="Link">
-        <button className={styles.TextButton}>{props.buttonText}</button>
+            <button className={styles.TextButton}>{props.buttonText}</button>
         </Link>
         </>
-        
     );
 }
 

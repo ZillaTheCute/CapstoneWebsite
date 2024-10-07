@@ -25,6 +25,11 @@ const router = createBrowserRouter([
     errorElement: <UnderConstructionPage />,
   },
   {
+    path: '/DCCPAI-Website',
+    element: <LandingPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
     path: '/Shop',
     element: <ShopPage />,
     errorElement: <UnderConstructionPage />,
