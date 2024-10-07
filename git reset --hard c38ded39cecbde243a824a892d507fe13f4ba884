@@ -1,0 +1,341 @@
+[33mcommit 0eba2bcf00c5c9722ecf19b37e826186e1f907c1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ZillaTheCute <104981138+ZillaTheCute@users.noreply.github.com>
+Date:   Mon Oct 7 17:56:51 2024 +0800
+
+    Attempt number 3 in getting it to work
+
+[33mcommit d27db22d7743fd132993bb5c19c081715647de97[m
+Author: ZillaTheCute <104981138+ZillaTheCute@users.noreply.github.com>
+Date:   Mon Oct 7 17:55:08 2024 +0800
+
+    Attempt 2 on getting it hosted
+
+[33mcommit 9d39d26cc33a84b3b2b4bae6f6c9a3a87910961c[m
+Author: ZillaTheCute <104981138+ZillaTheCute@users.noreply.github.com>
+Date:   Mon Oct 7 17:51:22 2024 +0800
+
+    Trying to get the website hosted, test 1
+
+[33mcommit c38ded39cecbde243a824a892d507fe13f4ba884[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Thu Oct 3 19:18:22 2024 +0800
+
+    Made product card panel button same with the edit one in editproductcardpanel
+
+[33mcommit 9fc4aecc43e5ff426de07afb3a6c6cdfbed36b97[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Wed Oct 2 13:19:12 2024 +0800
+
+    Changed the editProductCard
+
+[33mcommit ad359eaed175b18750550c05002a44c0750fd56a[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Wed Oct 2 13:18:47 2024 +0800
+
+    fixed Edit Product bottom row buttons
+
+[33mcommit fafdaaa2b3734fbf54e6403f15a58b7ebee9b46f[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Wed Oct 2 12:47:14 2024 +0800
+
+    Just removed the editproduct card panel from the landing Page
+
+[33mcommit ad92690086a79e3f9cc23ff781fa6536de58bd60[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Wed Oct 2 10:34:19 2024 +0800
+
+    EditProductCardPanel - Left and right buttons added, image counter added
+
+[33mcommit db89922098c91488fa39d907da38e188aceb1da2[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Mon Sep 30 20:04:33 2024 +0800
+
+    Changed the google maps to span the whole width.
+
+[33mcommit 92e7962b1dde9077602b5480c01a751e5f01cf9e[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Mon Sep 30 18:53:47 2024 +0800
+
+    Fixed footer text
+
+[33mcommit d7b43f197a1f816498baa055ebd12d0f900b2ce7[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Mon Sep 30 18:47:20 2024 +0800
+
+    Reworked the flavorText modules to accept JSX so <em></em> can be utilized to highlight text, associated page sections were also modified to accomodate this change with the correct highlights and added text.
+
+[33mcommit 51773cbc14548c1e43316bc08013ded6d846d9da[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 27 11:46:27 2024 +0800
+
+    Created EditProductCardPanel, Modified ProductCardPanel, changed the ourCacao section to make it known that its bestsellers.
+
+[33mcommit 7d871cf427e7e99db026681294bb736e2a7912fe[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Sep 21 21:57:32 2024 +0800
+
+    Left and Right arrows at the product details image
+
+[33mcommit 752c3b7593d7f6e0f3d150856590b8160520cb07[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Sep 21 19:46:55 2024 +0800
+
+    ProductCardPanel revamped
+
+[33mcommit 092a009ceafacc24d8c0dc1053dace72a064ea4a[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 20 21:34:28 2024 +0800
+
+    Got different assets for the about us page, finalized the aboutPage
+
+[33mcommit 0808b8eb8e3218d647775fe463d2655eba992a90[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 20 18:09:14 2024 +0800
+
+    Got some asset pictures
+
+[33mcommit d32c5981f1a2a4a4872ca5603d47854f6dbcf966[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 17 20:44:45 2024 +0800
+
+    Store page modified slightly, Favicon for all pages and title of all pages changed.
+
+[33mcommit 1426015f0b43410a5d0b012228a1dea3d82053fa[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 17 16:43:37 2024 +0800
+
+    ProductCard2 hover states implemented.
+
+[33mcommit a985a29f97a95a146cf459cbaf02ae0daa62678a[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Sep 15 20:51:11 2024 +0800
+
+    AboutBodySection - Added Address at the bottom, PrivacyPolicy Text added.
+
+[33mcommit 42f1b9e00a9772bf6b39c92037d76390879787a4[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 13 23:25:18 2024 +0800
+
+    About Page layout etc sort of finalized, created picture card for picture placeholders and whatnot.
+
+[33mcommit daf577d38ccbb4d1705c1fb38184df7c380e532d[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 13 21:42:56 2024 +0800
+
+    Logotext changed to 2nd variant, sizes and padding changed for logotext div
+
+[33mcommit 8059fc138a6631c4d66a98aadecddd5b120af022[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 10 22:30:48 2024 +0800
+
+    logo centered (vertically)
+
+[33mcommit e931e3221427f7f7938514a4d2a81cf349447ea9[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 10 22:11:14 2024 +0800
+
+    PaymentsBodySection, Privacy BodySection, ReturnsBodySection padding made uniform with other pages in the website.
+
+[33mcommit 8fcbbb0b07f1d2f3697d42c04b53383f8ad9fcdd[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 10 17:24:47 2024 +0800
+
+    Just finalized the AboutTitleSection to "About Us"
+
+[33mcommit 4d00a7a6bbe62013ec560f3809e1cc43a436455f[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 10 14:14:24 2024 +0800
+
+    FAQ common issues and height fixed, common issues converted to cards and height is auto instead of 100vh
+
+[33mcommit 3b792bf42e8bd83be2eb4244f1a6a17c0e715758[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 10 13:42:56 2024 +0800
+
+    Adjusted StoreTitleSection to be the same with FindUsTitleSection in spacing & Text size.
+
+[33mcommit 8b882bb958961de3441ea50823060c5f8dd2648a[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Sep 10 13:09:34 2024 +0800
+
+    FindUsPage sort of finalized. Background color changed to --dark-green-color & heights finalized
+
+[33mcommit 0a56e904d4405a33314c748f6a1d35dfd32aeb1a[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Sep 8 20:29:23 2024 +0800
+
+    Created smaller versions of ProductCard2 and TextButton as ProductCard2Small and TextButton2Small. Mainly for its application in the store page
+
+[33mcommit efc3f560ad4ac962829eae1e7093466c59f73d89[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Sep 8 00:06:13 2024 +0800
+
+    Footer edited, Not Final
+
+[33mcommit 987a73f7710c94def96f7693695ffbb3af4d2193[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Sep 7 22:32:55 2024 +0800
+
+    WhoWeAreSection2 created, line height changed to 1.5 in HeroTitleSection2
+
+[33mcommit 35664a51492579cc8f467f62c64f9699f786269e[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Sep 7 21:56:04 2024 +0800
+
+    OurCacaoSection kinda finalized (without carousel feature), FlavorText modules mainText made into --LilitaOne and font-weight normalized
+
+[33mcommit 2dedf8007658f8285b7ef1ecf3a53f4d4aae483a[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Sep 7 17:16:06 2024 +0800
+
+    Created ProductCard2, overhauled ourCacaoSection
+
+[33mcommit bb9e4bfe7686bb82dc6aad2f32a5b4349c6e985e[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 6 23:02:11 2024 +0800
+
+    Overhauled HeroTitleSection by creating HeroTitleSection2 & implemented the logotext
+
+[33mcommit 6d356d516f9695409f6f2938ec35a2763e040f6e[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 6 10:03:24 2024 +0800
+
+    Page title sections adjusted regarding to navbar not taking space anymore, product details page edited to take 100vh and information be centered on the viewport
+
+[33mcommit 3f391b74d48c7299bd6465612252d4eeb6d3120b[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Fri Sep 6 09:50:31 2024 +0800
+
+    Navbar section made so that it doesn't take any "space" and stays at a fixed position (position: fixed;) when the user is scrolling
+
+[33mcommit 5918778d11690cb5d696d24178141d9da3632e48[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Sep 1 13:18:42 2024 +0800
+
+    Created AddButton, added hover states for the x in the ProductCardPanel
+
+[33mcommit 108c9369a0e8b1b6ae4b09ebe4228bfc7068be2c[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Sep 1 12:58:42 2024 +0800
+
+    Removed ProductCardPanel from LandingPage
+
+[33mcommit 485f370a3e48a205c807f324113ed0f7340f5c1c[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Sep 1 12:57:34 2024 +0800
+
+    Created ProductCardPanel
+
+[33mcommit dd7651aefc11e5913d92b666d03c9d2ced3b78c6[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Aug 31 13:13:48 2024 +0800
+
+    Added more text to accompany pages.
+
+[33mcommit 69339ae733dd2d513683a931eeddd51eb8d2bd61[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Wed Aug 28 21:38:06 2024 +0800
+
+    Landing Page, Help & FAQ Page (Tentative) Text Added | Creation of a LeftFlavorText Module that has a smalller mainText font size (8rem to 5rem)
+
+[33mcommit 1da61d76bacf34a11a83aa07e98833b58ca26198[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Jul 21 13:22:05 2024 +0800
+
+    Links and whatnot are fixed, Product card can take in a link through props. "buttonLink"
+
+[33mcommit d07f3806ba700ceed210021922560120bfe424ee[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Jul 21 12:56:39 2024 +0800
+
+    TextButton module can take in links under the buttonLeadsTo prop to decide where it links to, modules that call the button were also adjusted accordingly
+
+[33mcommit 4098ec565b039725b2d28c7af1c8507eeb1d2cae[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sun Jul 21 12:41:03 2024 +0800
+
+    Product Details Page structurally done
+
+[33mcommit 561973bfc1aae087fe6d99c886c22fbd0752dab8[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Jul 20 16:26:59 2024 +0800
+
+    Footer and Navbar Links added
+
+[33mcommit 3fd2be8a5e98c406a259a0c10204a45ef99e8235[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Jul 20 16:13:01 2024 +0800
+
+    FAQ Page created
+
+[33mcommit 557fefc9c4af7e8157b94142759a520d6290e914[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Sat Jul 20 15:26:56 2024 +0800
+
+    Login & Account Registration Created
+
+[33mcommit 3e532dcd3617d36647e9748aeef5250f04bea60f[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Thu Jul 18 21:40:03 2024 +0800
+
+    Returns and Payments page created
+
+[33mcommit e43e8a2cffa81592aaac05a4dde0d018c085b5da[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Thu Jul 18 21:07:30 2024 +0800
+
+    Terms and Conditions Page created
+
+[33mcommit 86efcf64e492750626b4a27c697e7ac1da422252[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Thu Jul 18 17:52:06 2024 +0800
+
+    Privacy Policy Page created, FlavorTextLeftFull created, FlavorText with buttons can take in a string to change what's on the button.
+
+[33mcommit fe4898724e60034ceb46b9878230fbedabc8c9c8[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Wed Jul 17 22:34:28 2024 +0800
+
+    Flavor Text modules can take in Main and subtext, FindUs Page structurally finished
+
+[33mcommit 85c450a80d75caa0b8c32e740cd970a407553a18[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Jul 16 20:57:30 2024 +0800
+
+    Flavor Text Modules created with and without button variants, Left & Right
+
+[33mcommit 83846211f664856002f1f6bd83312b509269f215[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Jul 16 20:47:44 2024 +0800
+
+    Store Page structurally done
+
+[33mcommit ed952d52e43b828f5666111811d3cf0597083e08[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Tue Jul 16 15:15:54 2024 +0800
+
+    More Shop Page Progress - Page list hover state has to be fixed + product card hover state too
+
+[33mcommit 6a6e2d73de100b335b0b764a8eea3b7510233624[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Mon Jul 15 21:49:46 2024 +0800
+
+    Significant Shop Page Progress
+
+[33mcommit 1585afa17463822298f872707253befe19b8074d[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Mon Jul 15 15:03:43 2024 +0800
+
+    Addition of Shop Page
+
+[33mcommit 0125f2738a91283aca5634003f1d0c648b16c3db[m
+Author: Andrei Lee <andrei22.lee@gmail.com>
+Date:   Mon Jul 15 14:45:11 2024 +0800
+
+    Landing Page Structure Done
+
+[33mcommit 28b14e9be82b82e991b9c019ad18ca9cf32ad0e0[m
+Author: Andrei <andrei22.lee@gmail.com>
+Date:   Fri Jul 12 00:37:42 2024 +0800
+
+    First Commit, Just so this state of the project is saved on the internet, my Laptop is on it's last legs.
