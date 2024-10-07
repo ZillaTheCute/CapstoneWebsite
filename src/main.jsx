@@ -25,6 +25,11 @@ const router = createBrowserRouter([
     errorElement: <UnderConstructionPage />,
   },
   {
+    path: '/CapstoneWebsite',
+    element: <LandingPage />,
+    errorElement: <UnderConstructionPage />,
+  },
+  {
     path: '/DCCPAI-Website',
     element: <LandingPage />,
     errorElement: <UnderConstructionPage />,
@@ -93,5 +98,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    {console.log('testese')}
   </React.StrictMode>,
 )
